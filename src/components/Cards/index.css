@@ -1,0 +1,153 @@
+.cards-container{
+    /* border: 2px solid black; */
+    width: 95%;
+    min-height: 100vh;
+}
+
+.search-filter-container{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filter-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.filter-icon{
+    font-size: 30px;
+    margin: 0px 4px;
+}
+
+.search-icon{
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.search-bar-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-bar{
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.cards-list-container{
+    list-style-type: none;
+    padding: 0px;
+    /* border: 2px solid red; */
+    padding: 3px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .cards-list-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+        width: 85%;
+        /* margin-top:14500px; */
+        /* margin-top: 200px; */
+    }
+  }
+
+.each-card{
+    border: 1px solid black;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .each-card{
+        width: 45%;
+        border: 1px solid aliceblue;
+    }
+  }
+  
+.need-cards-design{
+/* border: 2px solid green; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+/* @media screen and (min-width:768px){
+    .need-cards-design{
+        overflow-y: scroll;
+        max-height: 200vh;
+    }
+} */
+
+.each-blocked-card{
+    border: 1px solid black;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: 2px solid red;
+    /* border: none; */
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .each-blocked-card{
+        width: 45%;
+        /* border: 1px solid aliceblue; */
+        border: 2px solid #E94560;
+    }
+  }
+  
+.your-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    min-height: 80vh;
+}
