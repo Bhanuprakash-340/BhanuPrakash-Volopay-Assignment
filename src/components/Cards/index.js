@@ -20,7 +20,7 @@ class Cards extends Component{
     }
 
     getCardsDataList =async () =>{
-        const response = await fetch("https://119f710b-b322-4a38-a656-e87cfb34b933.mock.pstmn.io/all_cards")
+        const response = await fetch("https://00ee8c85-eba5-4d7a-b403-92059f9bccca.mock.pstmn.io/all_cards")
         if (response.ok === true){
             const result = await response.json()
             // console.log(result.data)
